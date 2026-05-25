@@ -520,7 +520,7 @@ function ContactSection() {
 
           <div className="flex gap-3">
             <a
-              href="https://linkedin.com/in/jonathandaneels"
+              href="https://linkedin.com/in/daneelsjo"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 flex items-center justify-center gap-2 glass glass-hover rounded-xl py-3 text-slate-400 hover:text-white text-sm font-medium transition-all duration-200"
@@ -529,7 +529,7 @@ function ContactSection() {
               LinkedIn
             </a>
             <a
-              href="https://github.com/jonathandaneels"
+              href="https://github.com/daneelsjo"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 flex items-center justify-center gap-2 glass glass-hover rounded-xl py-3 text-slate-400 hover:text-white text-sm font-medium transition-all duration-200"

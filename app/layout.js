@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  metadataBase: new URL('https://jonathandaneels.dev'),
+  metadataBase: new URL('https://portfolio-daneelsjo.web.app'),
   title: 'Jonathan Daneels — Full-stack Webdeveloper & SaaS Architect',
   description:
     'Ik verander complexe problemen in elegante, schaalbare code. Van concept tot productie — snel, modulair en toekomstbestendig.',
@@ -28,7 +28,7 @@ export const metadata = {
   openGraph: {
     type: 'website',
     locale: 'nl_BE',
-    url: 'https://jonathandaneels.dev',
+    url: 'https://portfolio-daneelsjo.web.app',
     title: 'Jonathan Daneels — Full-stack Webdeveloper & SaaS Architect',
     description:
       'Ik verander complexe problemen in elegante, schaalbare code. Van concept tot productie.',
