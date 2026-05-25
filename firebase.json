@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "portfolio-daneelsjo",
     "public": "out",
     "ignore": [
       "firebase.json",
