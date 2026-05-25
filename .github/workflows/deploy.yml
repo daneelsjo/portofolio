@@ -25,5 +25,10 @@ jobs:
       - name: Build static export
         run: npm run build
 
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+
       - name: Deploy to Firebase Hosting
-        run: npx firebase-tools deploy --only hosting --token "${{ secrets.FIREBASE_TOKEN }}" --project portfolio-daneelsjo --non-interactive
+        run: npx firebase-tools deploy --only hosting --project portfolio-daneelsjo --non-interactive
