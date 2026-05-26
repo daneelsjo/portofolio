@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/generate-og.mjs && next build",
     "start": "next start",
     "deploy": "next build && firebase deploy --only hosting"
   },
@@ -16,6 +16,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
+    "sharp": "^0.34.5",
     "tailwindcss": "^3.4.17"
   }
 }
